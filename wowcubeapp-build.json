@@ -1,0 +1,32 @@
+{
+  "name": "tilt_beta",
+  "version": "1.0.0",
+  "sourceFile": "src/tilt_beta.cpp",
+  "scriptFile": "binary/tilt_beta.wasm",
+  "appIcon": {
+    "path": "assets/icon.png"
+  },
+  "soundAssetsDir": "assets/sounds",
+  "imageAssetsDir": "assets/images",
+  "sdkVersion": "6.2",
+  "appFlags": 0,
+  "language": "cpp",
+  "interpreter": "wasm",
+  "projectOptions": {
+    "cpp": {
+      "defines": "DUMMY_DEFINE=1;DUMMY_DEFINE2=2",
+      "flags": "-std=c++11 -Oz -flto -fno-exceptions -mexec-model=reactor -z stack-size=10240",
+      "compilerSettings": ",--initial-memory=65536,--export=run,--export=on_init,--strip-all,--lto-O3",
+      "includeFolders": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "imageAssets": [],
+  "soundAssets": [],
+  "adhocDescription": "No description"
+}

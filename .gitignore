@@ -1,0 +1,7 @@
+binary/
+*.cub
+
+.vscode/
+
+Thumbs.db
+.DS_Store
